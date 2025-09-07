@@ -20,15 +20,15 @@ pipeline {
                 echo "🔹 Deploying Frontend to Tomcat..."
                 bat '''
                 REM Remove old frontend folder if exists
-                if exist "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-Reactapp" (
-                    rmdir /S /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-Reactapp"
+                if exist "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\timetable-Reactapp" (
+                    rmdir /S /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\timetable-Reactapp"
                 )
 
                 REM Create new folder
-                mkdir "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-Reactapp"
+                mkdir "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\timetable-Reactapp"
 
                 REM Copy build files (React build output is usually 'build')
-                xcopy /E /I /Y FrontEnd\\timetable\\dist\\* "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-Reactapp"
+                xcopy /E /I /Y FrontEnd\\timetable\\dist\\* "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\timetable-Reactapp"
                 '''
             }
         }
