@@ -57,7 +57,7 @@ pipeline {
         )
 
         REM Copy new WAR file
-        copy "BackEnd\\Timetable-backend\\target\\travel-bucket-list-backend.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war"
+        copy "BackEnd\\Timetable-backend\\target\\Timetable-SpringBoot.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war"
         '''
     }
 }
