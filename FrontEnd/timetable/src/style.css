@@ -1,0 +1,140 @@
+/* Base */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* modern font */
+  background: #f0f2f5;
+  color: #333;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.app-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #007bff;
+}
+
+/* Form */
+.form-block {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.form-block:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.form-block h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-blue { background: #007bff; color: #fff; }
+.btn-blue:hover { background: #0069d9; }
+
+.btn-green { background: #28a745; color: #fff; }
+.btn-green:hover { background: #218838; }
+
+.btn-red { background: #dc3545; color: #fff; }
+.btn-red:hover { background: #c82333; }
+
+.btn-gray { background: #6c757d; color: #fff; }
+.btn-gray:hover { background: #5a6268; }
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.timetable-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable-table th, .timetable-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.timetable-table th {
+  background-color: #f1f3f5;
+  font-weight: 600;
+  color: #007bff;
+}
+
+/* Hover effect on table rows */
+.timetable-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Empty message */
+.empty-list {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}

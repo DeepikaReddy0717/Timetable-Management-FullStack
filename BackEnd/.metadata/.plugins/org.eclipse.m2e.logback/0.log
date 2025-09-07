@@ -1,0 +1,175 @@
+2025-09-06 19:22:29,368 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-09-06 21:31:12,065 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-06 21:33:21,604 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:33:27,484 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:33:27,490 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:33:27,526 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:33:27,527 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:33:27,530 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:33:27,534 [Worker-3: Import Getting Started Content] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2025-09-06 21:33:30,007 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 17 sec
+2025-09-06 21:33:30,016 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:33:30,827 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:33:32,296 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:33:32,297 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:33:32,299 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:33:32,300 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:33:32,301 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:33:32,302 [Worker-3: Import Getting Started Content] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2025-09-06 21:33:33,382 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-09-06 21:36:36,152 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:36:38,137 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.5.5/spring-boot-starter-web-services-3.5.5.pom
+2025-09-06 21:36:38,208 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.5.5/spring-boot-starter-web-services-3.5.5.pom
+2025-09-06 21:36:38,537 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.10/spring-oxm-6.2.10.pom
+2025-09-06 21:36:38,603 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.10/spring-oxm-6.2.10.pom
+2025-09-06 21:36:38,641 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.1.1/spring-ws-core-4.1.1.pom
+2025-09-06 21:36:38,689 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.1.1/spring-ws-core-4.1.1.pom
+2025-09-06 21:36:38,727 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.1.1/spring-xml-4.1.1.pom
+2025-09-06 21:36:38,785 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.1.1/spring-xml-4.1.1.pom
+2025-09-06 21:36:39,244 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.5.5/spring-boot-starter-web-services-3.5.5.jar
+2025-09-06 21:36:39,347 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.5.5/spring-boot-starter-web-services-3.5.5.jar
+2025-09-06 21:36:39,380 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.10/spring-oxm-6.2.10.jar
+2025-09-06 21:36:39,450 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.1.1/spring-xml-4.1.1.jar
+2025-09-06 21:36:39,475 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.1.1/spring-ws-core-4.1.1.jar
+2025-09-06 21:36:39,496 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.10/spring-oxm-6.2.10.jar
+2025-09-06 21:36:39,584 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.1.1/spring-xml-4.1.1.jar
+2025-09-06 21:36:39,829 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.1.1/spring-ws-core-4.1.1.jar
+2025-09-06 21:36:40,994 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:36:40,995 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:36:41,004 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:36:41,005 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:36:41,006 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:36:41,006 [Worker-38: Import Getting Started Content] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2025-09-06 21:36:41,801 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.5.5/spring-boot-starter-web-services-3.5.5-sources.jar
+2025-09-06 21:36:41,818 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.5.5/spring-boot-starter-web-services-3.5.5-sources.jar
+2025-09-06 21:36:41,827 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web-services:3.5.5
+2025-09-06 21:36:41,922 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.10/spring-oxm-6.2.10-sources.jar
+2025-09-06 21:36:43,216 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.10/spring-oxm-6.2.10-sources.jar
+2025-09-06 21:36:43,223 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-oxm:6.2.10
+2025-09-06 21:36:43,330 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.1.1/spring-ws-core-4.1.1-sources.jar
+2025-09-06 21:36:43,523 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.1.1/spring-ws-core-4.1.1-sources.jar
+2025-09-06 21:36:43,529 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.ws:spring-ws-core:4.1.1
+2025-09-06 21:36:43,642 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.1.1/spring-xml-4.1.1-sources.jar
+2025-09-06 21:36:43,744 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.1.1/spring-xml-4.1.1-sources.jar
+2025-09-06 21:36:43,751 [Worker-25: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.ws:spring-xml:4.1.1
+2025-09-06 21:36:45,165 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2025-09-06 21:36:45,169 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:36:45,816 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:36:47,090 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:36:47,091 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:36:47,092 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:36:47,093 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:36:47,095 [Worker-38: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:36:47,095 [Worker-38: Import Getting Started Content] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2025-09-06 21:36:47,664 [Worker-38: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-06 21:36:48,390 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:36:48,430 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:36:48,440 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-06 21:37:34,457 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:37:35,446 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:37:36,424 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:37:36,426 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:37:36,427 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:37:36,428 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:37:36,429 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:37:36,429 [Worker-25: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2025-09-06 21:37:36,882 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-06 21:37:37,247 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:37:37,267 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:37:37,277 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-06 21:38:18,452 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:38:19,095 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:38:20,138 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:38:20,140 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:38:20,141 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:38:20,141 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:38:20,142 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:38:20,143 [Worker-26: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2025-09-06 21:38:20,622 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-06 21:38:20,891 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:38:20,911 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:38:20,918 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-06 21:40:06,191 [Worker-17: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:40:07,006 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:40:07,007 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:40:07,027 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:40:07,047 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:40:07,048 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:40:07,911 [Worker-17: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-09-06 21:40:07,916 [Worker-17: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:40:08,671 [Worker-17: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-06 21:40:10,168 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-06 21:40:10,171 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:40:10,172 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-06 21:40:10,173 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-06 21:40:10,174 [Worker-17: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-06 21:40:10,789 [Worker-17: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-09-06 21:40:12,341 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:40:12,392 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:40:12,400 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-06 21:42:59,293 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:42:59,305 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:42:59,311 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-06 21:43:15,186 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:43:15,195 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:43:15,200 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-06 21:43:35,971 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:43:35,980 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:43:35,987 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-06 21:43:49,119 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:43:49,138 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:43:49,143 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:21:03,532 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-07 10:25:20,828 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:25:20,893 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:25:20,907 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:26:05,838 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:26:05,848 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:26:05,857 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:26:46,538 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:26:46,545 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:26:46,550 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:27:01,079 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:27:01,099 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:27:01,107 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:28:23,127 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:28:23,136 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:28:23,143 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:28:35,282 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:28:35,290 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:28:35,297 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:30:12,109 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:30:12,124 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:30:12,129 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 10:33:41,425 [Worker-39: Launching timetable-backend - TimetableBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 10:33:41,438 [Worker-39: Launching timetable-backend - TimetableBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 10:33:41,443 [Worker-39: Launching timetable-backend - TimetableBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 12:07:44,940 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-07 12:07:57,849 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-07 12:08:10,176 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-07 12:08:10,185 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-07 12:08:10,186 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-07 12:08:10,188 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-07 12:08:10,190 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-07 12:08:10,806 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 24.00 sec, update config takes 0.00 sec 
+2025-09-07 12:08:12,096 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-07 12:08:17,683 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 12:08:17,709 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 12:08:17,717 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 12:08:17,875 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-07 12:08:18,495 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:timetable-backend:0.0.1-SNAPSHOT @ C:\CICD DEMO\Birthday\BackEnd\timetable-backend\pom.xml.
+2025-09-07 12:08:20,128 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/main/java
+2025-09-07 12:08:20,129 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-07 12:08:20,130 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/main/resources
+2025-09-07 12:08:20,131 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /timetable-backend/src/test/java
+2025-09-07 12:08:20,132 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /timetable-backend/src/test/resources
+2025-09-07 12:08:25,510 [Worker-41: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for timetable-backend
+2025-09-07 12:08:26,202 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 5.00 sec 
+2025-09-07 12:08:27,623 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 12:08:27,685 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 12:08:27,697 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
+2025-09-07 12:08:27,698 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of timetable-backend
+2025-09-07 12:08:27,703 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for timetable-backend
+2025-09-07 12:11:26,974 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-07 12:11:26,994 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-07 12:11:27,001 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\CICD DEMO\Birthday\BackEnd\timetable-backend\src\test\resources
