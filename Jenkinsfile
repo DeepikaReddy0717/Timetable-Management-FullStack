@@ -27,8 +27,8 @@ pipeline {
                 REM Create new folder
                 mkdir "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-Reactapp"
 
-                REM Copy build contents (not the folder) into Tomcat
-                xcopy /E /I /Y FrontEnd\\timetable\\dist\\* "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-Reactapp\\"
+                REM Copy build files (React build output is usually 'build')
+                xcopy /E /I /Y FrontEnd\\timetable\\dist\\* "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-Reactapp"
                 '''
             }
         }
@@ -45,22 +45,21 @@ pipeline {
 
         // ===== BACKEND DEPLOY =====
         stage('Deploy Backend to Tomcat') {
-            steps {
-                echo "🔹 Deploying Backend to Tomcat..."
-                bat '''
-                REM Remove old backend deployment if exists
-                if exist "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war" (
-                    del /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war"
-                )
-                if exist "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot" (
-                    rmdir /S /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot"
-                )
+    steps {
+        bat '''
+        REM Remove old backend deployment if exists
+        if exist "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war" (
+            del /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war"
+        )
+        if exist "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot" (
+            rmdir /S /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot"
+        )
 
-                REM Copy new WAR file
-                copy "BackEnd\\Timetable-backend\\target\\Timetable-SpringBoot.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war"
-                '''
-            }
-        }
+        REM Copy new WAR file
+        copy "BackEnd\\Timetable-backend\\target\\Timetable-SpringBoot.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\Timetable-SpringBoot.war"
+        '''
+    }
+}
 
     }
 
